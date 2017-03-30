@@ -76,6 +76,9 @@ body {
     font-family: 'Jim Nightshade', monospace;
 }
 
+.callout h1{
+  font-size: 60px;
+}
 
 
 /* Custom Button Styles */
@@ -143,8 +146,8 @@ hr.small {
   color: white;
 }
 .navbar-custom .navbar-nav li.active a {
-  color: white;
-  background: rgba(157, 41, 246, .4);
+  
+  /*background: rgba(157, 41, 246, .4);*/
   border-radius: 5px;
 }
 .navbar-custom .navbar-nav li.active a:hover,
