@@ -356,7 +356,9 @@ hr.small {
   color:black;
 }
 .team img{
-  border-radius: 128px;
+  width:220px;
+  height:220px;
+  border-radius: 256px;
   margin-bottom: 15px;
   margin-top: 0px;
 }
@@ -400,6 +402,7 @@ footer {
 }
 
 /*fixing header for smaller screens*/
+/*Scaling team images for smaller screens*/
 @media screen and (max-width : 500px)
 {
   .header h1
@@ -409,4 +412,11 @@ footer {
   .about h2{
     font-size: 1.5em;
   }
+  .team img{
+  width:128px;
+  height:128px;
 }
+
+}
+
+
