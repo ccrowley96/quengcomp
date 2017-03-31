@@ -16,7 +16,6 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -24,6 +23,7 @@ body {
 }
 
 /*Header*/
+/*Header font scaling for smaller devices*/
 
 .textbox {
     text-align:center;
@@ -64,14 +64,15 @@ body {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
     padding-top: 20px;
-    font-size: 5em;
+    font-size: 5vw;
     font-weight: 700;
 }
+
 .text-vertical-center h2 {
     color:white;
     margin: 0;
     padding: 0;
-    font-size: 3em;
+    font-size: 4vw;
     font-weight: 700;
     font-family: 'Jim Nightshade', monospace;
 }
@@ -79,7 +80,6 @@ body {
 .callout h1{
   font-size: 60px;
 }
-
 
 /* Custom Button Styles */
 
@@ -378,4 +378,13 @@ footer {
   position: fixed;
   bottom: 5px;
   right: 5px;
+}
+
+/*fixing header for smaller screens*/
+@media screen and (max-width : 500px)
+{
+  .header h1
+  {
+    font-size:20px;
+  }
 }
