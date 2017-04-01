@@ -124,7 +124,10 @@ hr.small {
 }
 .navbar-custom .navbar-brand {
   color: white;
+  font-size: 12px;
 }
+
+
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
@@ -136,6 +139,7 @@ hr.small {
 }
 .navbar-custom .navbar-nav li a {
   color: white;
+  font-size: 12px;
 }
 .navbar-custom .navbar-nav li a:hover {
   color: white;
@@ -163,10 +167,15 @@ hr.small {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #932fe0;
+  /*background-color: #932fe0;*/
   color: white;
-  border-color: #932fe0;
+  /*border-color: #932fe0;*/
 }
+
+.navbar-custom .navbar-brand {
+  /*font-size: 2em;*/
+}
+
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 25px 0;
@@ -175,7 +184,7 @@ hr.small {
     transition: padding 0.3s;
   }
   .navbar-custom .navbar-brand {
-    font-size: 2em;
+    font-size: 1.3em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -426,5 +435,6 @@ footer {
   }
 
 }
+
 
 
