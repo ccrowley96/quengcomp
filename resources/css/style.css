@@ -401,6 +401,9 @@ footer {
   right: 5px;
 }
 
+.sponsors img{
+    padding-bottom: 15px;
+  }
 /*fixing header for smaller screens*/
 /*Scaling team images for smaller screens*/
 @media screen and (max-width : 500px)
@@ -415,7 +418,12 @@ footer {
   .team img{
   width:128px;
   height:128px;
-}
+  }
+  .sponsors img{
+   width:128px;
+   height:128px;
+
+  }
 
 }
 
