@@ -354,6 +354,9 @@ hr.small {
 .call-to-action {
     padding: 50px 0;
 }
+.call-to-action p{
+  font-size: 20px;
+}
 
 .call-to-action .btn {
     margin: 10px;
