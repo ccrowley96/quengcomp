@@ -16,6 +16,21 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.desc{
+   
+    /*border-radius: 15px;*/
+    box-shadow: 10px 10px 10px #888888;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: #337ab7;
+    border-radius: 20px;
+  }
+
+.apply{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 35px;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -403,8 +418,8 @@ hr.large{
 /*Our Team*/
 .team{
   padding: 50px 0;
-  background-color: white;
-  color:black;
+  background-color: #337ab7;
+  color:white;
 }
 .team img{
   width:220px;
