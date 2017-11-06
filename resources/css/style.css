@@ -12,8 +12,19 @@ body {
     height: 100%;
 }
 
+.slimFont{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#contest{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.contests{
+  font-size: 20px;
 }
 
 .desc{
@@ -152,6 +163,10 @@ hr.large{
   max-width: 50%;
 }
 /*Horizontal Navigation Bar*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  
+    background-color: none;
+}
 .navbar-custom {
   background: rgba(25, 25, 25, .9);
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -187,9 +202,8 @@ hr.large{
   color: white;
 }
 .navbar-custom .navbar-nav li.active a {
+ /*background: rgba(157, 41, 246, .4);*/
   
-  /*background: rgba(157, 41, 246, .4);*/
-  background-color: white;
   border-radius: 11px;
 }
 
@@ -197,7 +211,7 @@ hr.large{
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   /*background: #932fe0;*/
-  background-color: white;
+  /*background-color: white;*/
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -350,11 +364,12 @@ hr.large{
 /* Services */
 
 .services {
+    color:black;
     padding: 50px 0;
 }
 
 .service-item {
-    margin-bottom: 30px;
+    margin-bottom: -20px;
 }
 
 /* Callout */
