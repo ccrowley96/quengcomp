@@ -435,6 +435,7 @@ hr.large{
   padding: 50px 0;
   background-color: #337ab7;
   color:white;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .team img{
   width:200px;
@@ -447,7 +448,8 @@ hr.large{
   text-align: center;
 }
 .team h3{
-  font-size: 17px;
+  font-size: 22px;
+  font-style: bold;
  margin-bottom: 0px;
 }
 .team p{
