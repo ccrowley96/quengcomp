@@ -437,9 +437,9 @@ hr.large{
   color:white;
 }
 .team img{
-  width:220px;
-  height:220px;
-  border-radius: 256px;
+  width:200px;
+  height:200px;
+  border-radius: 20px;
   margin-bottom: 15px;
   margin-top: 0px;
 }
@@ -447,6 +447,7 @@ hr.large{
   text-align: center;
 }
 .team h3{
+  font-size: 17px;
  margin-bottom: 0px;
 }
 .team p{
